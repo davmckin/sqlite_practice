@@ -66,3 +66,6 @@ What were the top 3 highest grossing categories?
 Epic Mode
 
 Complete the exercises on sqlteaching.com as well and add a screenshot of the final screen showing all exercises completed to your README.
+
+
+https://photos-2.dropbox.com/t/2/AAD6GBPOAlOI-LUbiKK1IVsMewMzdp91MZ-4LSXuH6L-Vw/12/37209694/png/32x32/1/_/1/2/Screenshot%202017-02-14%2017.05.41.png/EN6OqBwYjDggBygH/nAN06oJ8TJd7pr2Z-rm_zVjI-XQcgG3AGMWebxbAdoM?size=800x600&size_mode=3
