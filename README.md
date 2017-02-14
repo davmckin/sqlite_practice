@@ -51,3 +51,19 @@ Simulate buying an item by inserting a User for yourself and an Order for that U
 INSERT INTO users (first_name, last_name, email) VALUES("Dave", "McKinney", "davidjmckin@gmail.com");
 
 INSERT INTO orders (user_id, item_id, quantity, created_at) VALUES(51, 97, 1, 2017-02-014);
+
+Adventure Mode
+
+What item was ordered most often? Grossed the most money?
+SELECT items.title, SUM(quantity) FROM orders INNER JOIN items ON orders.item_id = items.id GROUP BY item_id ORDER BY COUNT(quantity) DESC LIMIT 1;
+Ergonomic Concrete Gloves|34
+
+What user spent the most?
+SELECT users.first_name, users.last_name, SUM(orders.quantity * items.price) FROM users INNER JOIN orders on users.id = orders.user_id INNER JOIN items #I stopped here. I know this line is halfway complete. 
+
+What were the top 3 highest grossing categories?
+
+
+Epic Mode
+
+Complete the exercises on sqlteaching.com as well and add a screenshot of the final screen showing all exercises completed to your README.
